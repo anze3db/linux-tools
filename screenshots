@@ -1,1 +1,1 @@
-while true; do scrot "%Y-%m-%d-%H-%M_$2.png" & sleep $1; done
+while true; do scrot "%Y-%m-%d_%H-%M_$2.png" & sleep $1; done
