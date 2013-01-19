@@ -1,2 +1,2 @@
 export GREP_OPTIONS='--color=auto'
-grep -r -n -C ${2:-3} "$1" *
+grep -rnC ${2:-3} "$1" *
